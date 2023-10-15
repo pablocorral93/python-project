@@ -98,6 +98,16 @@ mirror = {
     
 }
 
+black_couch = {
+    "name": "black couch",
+    "type": "furniture",
+}
+
+tv = {
+    "name": "TV",
+    "type": "furniture",
+}
+
 
 game_room = {
     "name": "game room",
@@ -139,8 +149,8 @@ object_relations = {
     "game room": [couch, piano, door_a],
     "bedroom 1": [queen_bed, door_b, door_c],
     "bedroom 2": [double_bed, dresser, door_b],
-    "living room": [door_c, dining_table, door_d, dragon_door],
-    "bathroom": [door_d,mirror],
+    "living room": [door_c, dining_table, door_d, dragon_door, black_couch, tv],
+    "bathroom": [door_d, mirror],
     "outside": [dragon_door],
     
     "piano": [key_a],
